@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;600;700;800&display=swap');
+
+/* font-family: 'Work Sans', sans-serif; */
+
+body{
+    font-family: 'Work Sans', sans-serif;
+}
+
+/* header section css start */
+
+.navbar{
+    width: auto;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* border: 1px solid red; */
+    box-shadow: 2px 10px #aaaaaa;
+    padding: 0px 127px;
+}
+
+.navbar .logo{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.navbar .logo h3{
+    font-size: 45px;
+    font-weight: 700;
+    color: #0B0223;
+}
+
+.navbar .logo span{
+    font-size: 45px;
+    font-weight: 700;
+    background: var(--linear, linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%));
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.navbar .menu-item ul{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 30px;
+    align-items: center;
+}
+
+.navbar .menu-item ul li{
+    list-style: none;
+}
+
+.navbar .menu-item ul li a{
+    text-decoration: none;
+    color: #3C354F;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.navbar .menu-item .menu-btn{
+    padding: 8px 12px;
+    border-radius: 8px;
+    background-color: rgba(11, 2, 35, 0.10);
+    border: none;
+    font-size: 18px;
+    font-weight: 500;
+    color: #3C354F;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.navbar .menu-item .menu-btn .fa-youtube{
+    color: red;
+    font-size: 26px;
+}
