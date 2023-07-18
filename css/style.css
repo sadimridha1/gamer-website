@@ -225,6 +225,53 @@ body{
     margin: 0;
 }
 
+/* Play instantly section start */
+.play-instantly{
+    max-width: 83%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    padding: 70px 0px;
+   
+}
+
+.play-instantly-content{
+    text-align: right;
+    padding-left: 100px;
+    padding-right: 220px;
+}
+
+.play-instantly-content h3{
+    font-size: 44px;
+    font-weight: 700;
+}
+
+.play-instantly-image{
+    position: relative;
+}
+
+.play-instantly-image .doll-img{
+    width: 215px;
+    position: absolute;
+    top: 281px;
+    left: -87px;
+}
+
+.play-instantly-image .horse-img{
+    width: 450px;
+}
+
+.play-instantly-content span{
+    color: #FF42A5;
+}
+
+.play-instantly-content h3{
+    color: #0B0223;
+}
+
+.play-instantly-content p{
+    color: #534C64;
+}
 
 /* We Are Gamer Section End */
 
@@ -277,7 +324,42 @@ body{
     .we-are-gamer-content .our-purpose{
         padding-top: 30px;
     }
+
+    /* Play instantly section start */
+    .play-instantly{
+       flex-direction: column;  
+       flex-direction: column-reverse;
+    }
     
+
+    .play-instantly-content {
+        text-align: center;
+        padding-left: 0px;
+        padding-right: 0px;
+        padding-top: 100px;
+    }
+
+    .play-instantly-content {
+        padding-bottom: 45px;
+    }
+
+    .play-instantly-image .horse-img{
+        width: 370px;
+    }
+
+    .play-instantly-image .doll-img {
+        width: 151px;
+        top: 268px;
+        left: -60px;
+    }
+
+    .play-instantly {
+        padding: 15px 0px;
+    }
+
+    .play-instantly-content h3 {
+        padding-bottom: 20px;
+    }
 }
 
 @media screen and (min-width:577px) and (max-width:992px){
@@ -319,4 +401,26 @@ body{
     .we-are-gamer .we-are-gamer-content{
         text-align: center;
     }
+
+    /* Play instantly section start */
+    .play-instantly{
+        flex-direction: column;  
+        flex-direction: column-reverse;
+        text-align: center;
+     }
+
+     .play-instantly-content {
+        padding-top: 100px;
+    }
+
+    .play-instantly-content {
+        text-align: center;
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+
+    .we-are-gamer .we-are-gamer-content .gamer-description {
+        padding: 22px 0px 40px 0px;
+    }
+
 }
