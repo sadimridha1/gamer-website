@@ -11,6 +11,16 @@ body{
     font-family: 'Work Sans', sans-serif;
 }
 
+/* shared css */
+.sing-in, .know-more{
+    color: #fff;
+    background: #FF42A5;
+    font-size: 20px;
+    padding: 16px 35px;
+    border: none;
+    border-radius: 48px;
+}
+
 /* header section css start */
 
 .navbar{
@@ -82,11 +92,10 @@ body{
 }
 
 /* Banner section css Start */
-main{
-    max-width: 90%;
-}
 
 .banner{
+    max-width: 95%;
+    margin: auto;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -157,12 +166,70 @@ main{
 /* Banner contect div end  */
 
 .banner .banner-image img{
-    max-width: 600px;
+    max-width: 650px;
+}
+
+/* We Are Gamer Section Start */
+.we-are-gamer{
+    max-width: 87%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px 0px;
+}
+
+.we-are-gamer .we-are-gamer-image img{
+    width: 670px;
+    margin: 0;
+}
+
+.we-are-gamer .we-are-gamer-content{
+    text-align: right;
+}
+
+.we-are-gamer-content .our-purpose{
+    color: #534C64;
+    font-size: 22px;
+    font-weight: 500;
+    padding: 12px 0px;
+}
+
+.we-are-gamer-content .unleash{
+    color: #534C64;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.we-are-gamer .we-are-gamer-content .head{
+    color: #F948B2;
+    font-size: 44px;
+    font-weight: 700;
+
+}
+
+.we-are-gamer .we-are-gamer-content .gamer-description{
+    font-size: 18px;
+    line-height: 25px;
+    color: #534C64;
+    font-weight: 400;
+    padding: 13px 0px;
+}
+
+.we-are-gamer-content {
+	margin-right: 26px;
+}
+
+.we-are-gamer .we-are-gamer-image img{
+    width: 500px;
+    margin: 0;
 }
 
 
-/* Resonsive  */
+/* We Are Gamer Section End */
 
+
+/* Resonsive  */
 /* mobile responsive */
 
 @media screen and (max-width: 576px) {
@@ -193,6 +260,24 @@ main{
     .navbar .logo{
         margin: 52px 0px;
     }
+
+    /* We are gamer section  */
+    .we-are-gamer{
+        flex-direction: column;
+    }
+
+    .we-are-gamer .we-are-gamer-content{
+        text-align: center;
+    }
+
+    .we-are-gamer .we-are-gamer-content .gamer-description{
+        padding: 20px 0px;
+    }
+
+    .we-are-gamer-content .our-purpose{
+        padding-top: 30px;
+    }
+    
 }
 
 @media screen and (min-width:577px) and (max-width:992px){
@@ -226,5 +311,12 @@ main{
         font-size: 18px;
         padding: 10px 20px;
     }
+
+    .we-are-gamer{
+        flex-direction: column;
+    }
     
+    .we-are-gamer .we-are-gamer-content{
+        text-align: center;
+    }
 }
