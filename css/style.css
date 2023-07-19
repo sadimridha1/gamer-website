@@ -2,7 +2,6 @@
 *{
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
 }
 
 
@@ -384,7 +383,65 @@ body{
     padding: 20px 0px;
 }
 
+/* careers section start  */
+.Careers{
+    max-width: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background: linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%);
+}
 
+.careers-content{
+    padding: 30px 0px 30px 108px;
+    /* width: 50%; */
+}
+.careers-content .careers-head{
+    color: #FFF;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 60px; 
+}
+.careers-content .careers-description{
+    font-size: 17px;
+    color: #fff;
+    line-height: 30px;
+  
+}
+
+.careers-content .list-iteam{
+    display: flex;
+    justify-content: space-between;
+    padding: 14px 0px;
+}
+
+.list-iteam li{
+    list-style: none;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 32px;
+}
+
+.careers-content .careers-btn{
+    color: #FF42A5;
+    border-radius: 48px;
+    background: #FFF;
+    padding: 10px 18px;
+    border-radius: 20px;
+    border: none;
+    font-size: 18px;
+}
+ 
+.careers-image{
+    /* width: 50%; */
+}
+
+.careers-image img{
+    width: 700px;
+    height: 700px;
+}
 
 /* Play-games-anywhere section End */
 
@@ -512,6 +569,29 @@ body{
         left: 268px;
     }
 
+    /* careers section start  */
+
+    .Careers{
+        flex-direction: column;
+    }
+   
+    .careers-content {
+        padding: 30px 10px 30px 24px;
+    }
+
+    .careers-content .list-iteam {
+        padding: 38px 0px;
+    }
+
+    .careers-content .careers-btn {
+        margin-left: 104px;
+    }
+
+    .careers-image img {
+        width: 423px;
+        height: auto;
+        margin-left: 71px;
+    }
 
 }
 
@@ -613,4 +693,24 @@ body{
         padding-right: 44px;
         padding-top: 164px;
     }
+
+        /* careers section start  */
+
+        .Careers{
+            flex-direction: column;
+        }
+
+        .careers-content {
+            padding: 30px 60px 30px 70px;
+        }
+
+        .careers-content .careers-btn {
+            margin-left: 270px;
+            margin-top: 45px;
+        }
+
+        .careers-image img {
+            width: 863px;
+            height: 700px;
+        }
 }
