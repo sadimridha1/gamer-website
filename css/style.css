@@ -225,13 +225,65 @@ body{
     margin: 0;
 }
 
+/* Online Games and Funny Vedio Section start */
+.online-game{
+    max-width: 84%;
+    padding: 100px 0px;
+    margin: auto;
+}
+
+.online-game .online-game-head{
+    color: #0B0223;;
+    font-size: 44px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.online-game .online-game-head span{
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.online-game .online-game-description{
+    text-align: center;
+    color: #534C64;
+    font-size: 18px;
+    font-weight: 400px;
+    padding: 20px 0px;
+}
+
+.online-game-iamge{
+    display: flex;
+    gap: 13px;
+    padding-top: 15px;
+}
+
+.online-game-iamge img{
+    width: 273px;
+}
+
+.online-game-iamge .img-description{
+    color: #534C64;
+    font-size: 18px;
+    line-height: 30px;
+    padding-top: 10px;
+}
+
+.online-game-iamge .first-img{}
+.online-game-iamge .second-img{}
+.online-game-iamge .third-img{}
+.online-game-iamge .fourth-img{}
+/* Online Games and Funny Vedio Section End */
+
 /* Play instantly section start */
 .play-instantly{
     max-width: 83%;
     margin: auto;
     display: flex;
     align-items: center;
-    padding: 70px 0px;
+    padding: 13px 0px;
    
 }
 
@@ -272,9 +324,66 @@ body{
 .play-instantly-content p{
     color: #534C64;
 }
+/* play game instantly Section End */
 
-/* We Are Gamer Section End */
+/* Play-games-anywhere section start  */
+.Play-games-anywhere{
+    max-width: 83%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    padding: 150px 0px;
+}
 
+.Play-games-anywhere-images{
+    position: relative;
+}
+
+.Play-games-anywhere .doll-img{
+    width: 215px;
+    position: absolute;
+    top: 281px;
+    left: 338px;
+}
+
+.Play-games-anywhere .horse-img{
+    width: 450px;
+}
+.play-game-anywhere-content{
+    text-align: right;
+    padding-left: 100px;
+    padding-right: 220px;
+}
+
+.play-game-anywhere-content {
+	text-align: left;
+	padding-left: 205px;
+	padding-right: 16px;
+}
+
+.play-game-anywhere-content span{
+    font-size: 44px;
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.play-game-anywhere-content h3{
+    color: #0B0223;
+    font-size: 44px;
+}
+
+.play-game-anywhere-content-descrip{
+    color: #534C64;
+    font-size: 18px;
+    line-height: 30px; 
+    padding: 20px 0px;
+}
+
+
+
+/* Play-games-anywhere section End */
 
 /* Resonsive  */
 /* mobile responsive */
@@ -325,10 +434,28 @@ body{
         padding-top: 30px;
     }
 
+    /* Online Games and Funny Vedio Section start */
+
+    .online-game {
+        padding: 26px 0px;
+    }
+
+    .online-game-iamge{
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .online-game-iamge img {
+        width: 341px;
+    }
+
+    .online-game-iamge .img-description{
+        margin: 5px 53px;
+    }
+
     /* Play instantly section start */
     .play-instantly{
        flex-direction: column;  
-       flex-direction: column-reverse;
     }
     
 
@@ -336,7 +463,7 @@ body{
         text-align: center;
         padding-left: 0px;
         padding-right: 0px;
-        padding-top: 100px;
+        padding-top: 34px;
     }
 
     .play-instantly-content {
