@@ -342,26 +342,26 @@ body{
 .Play-games-anywhere .doll-img{
     width: 215px;
     position: absolute;
-    top: 281px;
+    top: 258px;
     left: 338px;
 }
 
 .Play-games-anywhere .horse-img{
     width: 450px;
 }
-.play-game-anywhere-content{
+.play-games-anywhere-content{
     text-align: right;
     padding-left: 100px;
     padding-right: 220px;
 }
 
-.play-game-anywhere-content {
+.play-games-anywhere-content {
 	text-align: left;
 	padding-left: 205px;
 	padding-right: 16px;
 }
 
-.play-game-anywhere-content span{
+.play-games-anywhere-content span{
     font-size: 44px;
     background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
     background-clip: text;
@@ -369,12 +369,12 @@ body{
     -webkit-text-fill-color: transparent;
 }
 
-.play-game-anywhere-content h3{
+.play-games-anywhere-content h3{
     color: #0B0223;
     font-size: 44px;
 }
 
-.play-game-anywhere-content-descrip{
+.play-games-anywhere-content-descrip{
     color: #534C64;
     font-size: 18px;
     line-height: 30px; 
@@ -475,9 +475,9 @@ body{
     }
 
     .play-instantly-image .doll-img {
-        width: 151px;
+        max-width: 151px;
         top: 268px;
-        left: -60px;
+        left: -50px;
     }
 
     .play-instantly {
@@ -487,6 +487,29 @@ body{
     .play-instantly-content h3 {
         padding-bottom: 20px;
     }
+
+/* Play-games-anywhere start */
+    .Play-games-anywhere{
+        flex-direction: column-reverse;
+        padding: 123px 0px;
+    }
+
+    .play-games-anywhere-content {
+        text-align: center;
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+
+    .Play-games-anywhere-images .horse-img{
+        width: 370px;
+    }
+    .Play-games-anywhere .doll-img {
+        width: 150px;
+        top: 235px;
+        left: 268px;
+    }
+
+
 }
 
 @media screen and (min-width:577px) and (max-width:992px){
@@ -550,4 +573,41 @@ body{
         padding: 22px 0px 40px 0px;
     }
 
+    .online-game-iamge{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        padding-top: 50px;
+    }
+
+    .online-game {
+        padding: 42px 0px;
+    }
+
+    .online-game-iamge .img-description {
+        padding: 10px 62px 5px 0px;
+    }
+
+    .play-instantly{
+        flex-direction: column-reverse;
+    }
+
+    .play-instantly-content {
+        padding-top: 130px;
+    }
+
+    .play-instantly-content p {
+        padding-top: 15px;
+    }
+
+    .Play-games-anywhere{
+        flex-direction: column;
+        padding: 79px 0px;
+    }
+
+    .play-games-anywhere-content {
+        text-align: center;
+        padding-left: 41px;
+        padding-right: 44px;
+        padding-top: 164px;
+    }
 }
