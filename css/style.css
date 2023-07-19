@@ -262,8 +262,36 @@ body{
     padding-top: 15px;
 }
 
+.online-game-iamge .first-img{
+    position: relative;
+}
+
+.fa-youtube{
+    color: red;
+    border-radius: 40px;
+    font-size: 29px;
+}
+
+.card-body{
+    display: none;
+    position: absolute;
+    top: 140px;
+    left: 90px;
+    text-align: center;
+}
+
+.first-img:hover .card-body{
+    display: block;
+}
+
+.card-body .pera{
+    color:#ffffff;
+    font-weight: 500;
+}
 .online-game-iamge img{
     width: 273px;
+    background: #00000052;
+    backdrop-filter: blur(5px);
 }
 
 .online-game-iamge .img-description{
@@ -273,7 +301,6 @@ body{
     padding-top: 10px;
 }
 
-.online-game-iamge .first-img{}
 .online-game-iamge .second-img{}
 .online-game-iamge .third-img{}
 .online-game-iamge .fourth-img{}
@@ -447,7 +474,7 @@ body{
 .game-name{
     max-width: 90%;
     margin: auto;
-    padding: 70px 0px;
+    padding-top: 60px;
 }
 
 .game {
@@ -474,6 +501,7 @@ body{
 
 .image:hover{
     border: 1px solid #FF42A5;
+    cursor: pointer;
 }
 
 .mobile-game .image img{
@@ -484,7 +512,7 @@ body{
 
 .footer {
     background: #0b0223;
-    margin-top: 150px;
+    margin-top: 80px;
     color: white;
   }
   
@@ -643,6 +671,12 @@ body{
     .online-game-iamge{
         flex-direction: column;
         text-align: center;
+    }
+
+    .online-vedio{
+        position: absolute;
+        top: 30px;
+        left: 40px;
     }
 
     .online-game-iamge img {
