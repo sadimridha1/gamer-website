@@ -545,12 +545,12 @@ body{
     font-size: 30px;
   }
   
-  .foot-sub {
+  .footer-sub {
     display: flex;
     padding-bottom: 20px;
   }
   
-  .foot-sub a {
+  .footer-sub a {
     text-decoration: none;
     color: #fff;
     margin-right: 28px;
@@ -567,10 +567,26 @@ body{
     font-weight: 500;
     line-height: normal;
   }
+
+  .fa-youtube{
+    /* color: red0; */
+    
+  }
   
 
 /* Resonsive  */
 /* mobile responsive */
+
+
+
+
+
+
+
+
+
+
+
 
 @media screen and (max-width: 576px) {
     .navbar{
@@ -717,6 +733,11 @@ body{
         margin-left: 71px;
     }
 
+    .list-iteam li {
+        font-size: 15px;
+        line-height: 30px;
+    }
+
  
 /* gamer name section  */
     .image{
@@ -737,16 +758,31 @@ body{
         object-fit: cover;
     }
 
-    .image p{
-        font-size: 15px;
-    } 
+    .image p {
+        font-size: 10px;
+    }
 
     /* footer section css  */
 
-    .footer-menu a {
-        /* font-size: 15px; */
+    .footer{
+        padding: 60px 0px;
+    }
+    .footer-menu {
+        flex-direction: column;
       }
 
+      .footer-menu1{
+        padding-bottom: 30px;
+      }
+
+      .footer-sub{
+        line-height: 50px;
+        padding: 0px 50px;
+      }
+
+      .footer {
+        margin-top: 0px;
+    }
 }
   
 
